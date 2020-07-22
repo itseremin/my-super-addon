@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>my_super_addon</id>
+    <name>My Super Add-on</name>
+    <priority>1</priority>
+    <status>active</status>
+    <version>1.0.0</version>
+    <settings>
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="my_super_license_key">
+                        <type>hidden</type>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+</addon>
